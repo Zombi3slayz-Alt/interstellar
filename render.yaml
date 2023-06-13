@@ -5,7 +5,7 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 18.9.0
-    repo: https://gitlab.com/somebozo/dont-worry-about-it # optional
+    repo: https://github.com/Zombi3slayz-Alt/interstellar # optional
     plan: free
     buildCommand: npm install
     startCommand: node .
